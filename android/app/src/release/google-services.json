@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "322609107986",
+    "firebase_url": "https://association-fb33b.firebaseio.com",
+    "project_id": "association-fb33b",
+    "storage_bucket": "association-fb33b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322609107986:android:578a11f36329d6c9",
+        "android_client_info": {
+          "package_name": "com.lyam.rnfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "322609107986-kj51j555c0pbjs82jfkus57itapinb7v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoehizwY3jvaA_2l_bu7RHZJH8-If0CVc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

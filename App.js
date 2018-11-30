@@ -1,13 +1,18 @@
 import React from "react";
 import { Platform, Image, Text, View, StyleSheet } from "react-native";
 import firebase from "react-native-firebase";
-import type, { Notification, NotificationOpen } from "react-native-firebase";
+//import type, { Notification, NotificationOpen } from "react-native-firebase";
 
 export default class App extends React.Component {
+  componentDidMount2() {
+    const email = "test222@test.fr";
+    const password = "test2812";
+    alert(email);
+  }
   componentDidMount() {
     const email = "test222@test.fr";
     const password = "test2812";
-
+    alert(email);
     firebase
       .auth()
       .signInWithEmailAndPassword(email, password)
